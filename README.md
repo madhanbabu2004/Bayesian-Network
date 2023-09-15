@@ -19,7 +19,7 @@ Step 13:Generate the graph using networkx<br/>
 Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
-''' 
+```
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -83,7 +83,7 @@ ax=plt.gca()
 ax.margins(0.10)
 plt.axis("off")
 plt.show()
- '''
+ ```
 ## Output:
 ![output](./55.png)
 ## Result:
